@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Lucas\\Programação\\DIO\\Cadastro-veiculos\\miminal-api\\miminal-api.csproj": {}
+    "D:\\Lucas\\Programação\\DIO\\Cadastro-veiculos\\minimal-api\\miminal-api.csproj": {}
   },
   "projects": {
-    "D:\\Lucas\\Programação\\DIO\\Cadastro-veiculos\\miminal-api\\miminal-api.csproj": {
+    "D:\\Lucas\\Programação\\DIO\\Cadastro-veiculos\\minimal-api\\miminal-api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Lucas\\Programação\\DIO\\Cadastro-veiculos\\miminal-api\\miminal-api.csproj",
+        "projectUniqueName": "D:\\Lucas\\Programação\\DIO\\Cadastro-veiculos\\minimal-api\\miminal-api.csproj",
         "projectName": "miminal-api",
-        "projectPath": "D:\\Lucas\\Programação\\DIO\\Cadastro-veiculos\\miminal-api\\miminal-api.csproj",
+        "projectPath": "D:\\Lucas\\Programação\\DIO\\Cadastro-veiculos\\minimal-api\\miminal-api.csproj",
         "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-        "outputPath": "D:\\Lucas\\Programação\\DIO\\Cadastro-veiculos\\miminal-api\\obj\\",
+        "outputPath": "D:\\Lucas\\Programação\\DIO\\Cadastro-veiculos\\minimal-api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -50,6 +50,28 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.3, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
