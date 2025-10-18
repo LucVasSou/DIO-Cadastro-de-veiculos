@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("miminal-api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fd5603d6697408d24a7b3b000909ab90d1501cfe")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9222a8db1860dfd0cd55389f4b626abea8a56ebb")]
 [assembly: System.Reflection.AssemblyProductAttribute("miminal-api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("miminal-api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

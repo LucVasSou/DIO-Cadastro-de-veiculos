@@ -1,8 +1,14 @@
 using System.Diagnostics;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using MinimalApi.Dominio.Interfaces;
+using MinimalApi.Dominio.Servicos;
+using MinimalApi.Dtos;
 using MinimalApi.Infraestrutura.Db;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddScoped<IAdministradorServico, AdministradorServico>();
 
 builder.Services.AddDbContext<DbContexto>(options =>
 {
@@ -17,9 +23,9 @@ var app = builder.Build();
 
 app.MapGet("/", () => "Hello World!");
 
-app.MapPost("/login", (MinimalApi.Dtos.LoginDto loginDto) =>
+app.MapPost("/login", ([FromBody] LoginDto loginDto, IAdministradorServico administradorServico) =>
 {
-    if (loginDto.Email == Environment.GetEnvironmentVariable("ADMIN_EMAIL") && loginDto.Senha == Environment.GetEnvironmentVariable("ADMIN_PASSWORD"))
+    if (administradorServico.Login(loginDto) != null)
     {
         return Results.Ok("Logado com sucesso!");
     }
