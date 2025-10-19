@@ -2833,11 +2833,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Lucas\\Programação\\DIO\\Cadastro-veiculos\\minimal-api\\minimal-api.csproj",
+      "projectUniqueName": "D:\\Lucas\\Programação\\DIO\\Cadastro-veiculos\\cadastro-veiculos-minimal-api\\minimal-api\\minimal-api.csproj",
       "projectName": "minimal-api",
-      "projectPath": "D:\\Lucas\\Programação\\DIO\\Cadastro-veiculos\\minimal-api\\minimal-api.csproj",
+      "projectPath": "D:\\Lucas\\Programação\\DIO\\Cadastro-veiculos\\cadastro-veiculos-minimal-api\\minimal-api\\minimal-api.csproj",
       "packagesPath": "C:\\Users\\lucas\\.nuget\\packages\\",
-      "outputPath": "D:\\Lucas\\Programação\\DIO\\Cadastro-veiculos\\minimal-api\\obj\\",
+      "outputPath": "D:\\Lucas\\Programação\\DIO\\Cadastro-veiculos\\cadastro-veiculos-minimal-api\\minimal-api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
